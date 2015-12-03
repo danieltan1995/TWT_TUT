@@ -1,0 +1,27 @@
+<hmtl>
+	<body>
+		<form>
+			<table>
+			<tr><td><h2>What kind of car would you like to buy?</h2></td></tr>
+			<tr><td><input type ="radio" name="car" value="proton"> Proton <input type ="radio" name="car" value="honda"> Honda
+				<input type ="radio" name="car" value="ferrari"> Ferrari
+				<input type ="radio" name="car" value="ford"> Ford</td></tr>
+			<tr><td><h2>What colour do you want on your car?</h2?</td></tr>
+			<tr><td><select name="colour">
+				 <option value="white">White</option>
+				 <option value="red">Red</option>
+				 <option value="black">Black</option>
+				 <option value="blue">Blue</option></td>
+				 <td><b>Other : </b><input type="text" name="name"></td></tr>
+			<tr><td><h2>What do you like about the car?</h2></td></tr>
+			<tr><td><textarea name="comment" cols=100 rows= 10>Write your comment here</textarea></td></tr>
+			<tr><td><h2>Tell us how to get in touch with you: </td></tr>
+			<tr><td><b>Name:</b></td><td><input type="text" name="name"></td></tr>
+			<tr><td><b>E-mail:</b></td><td><input type="text" email="email"></td></tr>
+			<tr><td><b>Tel:</b></td><td><input type="text" tel="tel"></td></tr>
+			<tr><td><b>FAX:</b></td><td><input type="text" fax="fax"></td></tr><br>
+			<tr><td><input type="checkbox" name="opt" value="opt">Please contact me as soon as possible regarding this matter<br></td></tr>
+			<tr><td><input type="submit" value="Submit">&nbsp&nbsp<input type="reset" value="Clear"></td></tr>
+		</form>
+	</body>
+</html>
